@@ -40,7 +40,6 @@ header #header-inner{
     margin-bottom: 40px;
     position: fixed;
     top: 0;
-    left: 24px;
     width: 100%;
     
 
@@ -50,16 +49,38 @@ header #header-inner{
 /* contenitore principale header */
 
 #contenitore-donna-uomo-bambino{
+    height:60px;
+    width: 150px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#unordered{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    color: white;
+    display: flex;
+    gap: 5px;
+}
+
+/* donna-uomo-bambino */
+
+
+
+#contenitore-logo {
     height:100%;
     width: 150px;
     background-color: red;
 
 }
 
-#contenitore-logo {
-    height:100%;
-    width: 150px;
-    background-color: red;
+#logo-boolean {
+    width: 100%;
+    height: 100%;
 
 }
 
