@@ -76,3 +76,31 @@ header #header-inner{
 
 
 }
+
+
+/* /sezione main */
+
+#contenitore-footer{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    height: 60px;
+    background-color: orange;
+    
+}
+
+
+#contenitore-srl {
+    height: 50px;
+    width: 80px;
+    background-color: red;
+
+}
+
+#contenitore-social {
+    height: 50px;
+    width: 80px;
+    background-color: red;
+
+}
