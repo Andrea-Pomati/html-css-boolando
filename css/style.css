@@ -23,6 +23,8 @@ header {
     right: auto;
     width: 100%;
     top: 0;
+    height: 60px;
+    background-color: #FF6900;    
 }
 
 .section-centered {
@@ -39,9 +41,9 @@ header #header-inner{
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 60px;
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,7 +59,7 @@ header #header-inner{
 #contenitore-donna-uomo-bambino{
     height:100%;
     width: 150px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +82,7 @@ header #header-inner{
 #contenitore-logo {
     height:100%;
     width: 160px;
-    background-color: red;
+    /* background-color: red; */
 
 }
 
@@ -93,8 +95,18 @@ header #header-inner{
 #contenitore-icone-carrello {
     height:100%;
     width: 150px;
-    background-color: red;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
 
+    
+}
+
+#logo-carrello {
+    width: 100px;
+    height: 40px;
 }
 
 
