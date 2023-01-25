@@ -12,6 +12,9 @@ main{
     padding-bottom: 40px;
 }
 
+
+
+
 .section-centered {
     max-width: 1300px;
     margin-left: auto;
@@ -33,6 +36,7 @@ header #header-inner{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 40px;
+    
 
 
 }
