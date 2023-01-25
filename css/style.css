@@ -16,11 +16,36 @@ header .section-centered {
 
 }
 
-#head-inner{
+/* Margini del contenuto */
+
+header #head-inner{
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
-    height: 80px;
+    height: 60px;
+    background-color: orange;
 
 }
+
+header div #donna-uomo-bambino{
+    height:100%;
+    width: 150px;
+    background-color: red;
+
+}
+
+#contenitore-logo {
+    height:100%;
+    width: 150px;
+    background-color: red;
+
+}
+
+#contenitore-icone-carrello {
+    height:100%;
+    width: 150px;
+    background-color: red;
+
+}
+
