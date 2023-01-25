@@ -126,7 +126,7 @@ header #header-inner{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 50px;
+    gap: 80px;
 }
 
 .img {
@@ -168,6 +168,19 @@ header #header-inner{
     background-color: green;
     color: white;
 
+}
+
+.unordered-due{
+    list-style-type: none;
+
+}
+
+.testo-rosso{
+    color: red;
+}
+
+.testo-line-through{
+    text-decoration: line-through;
 }
 
 
