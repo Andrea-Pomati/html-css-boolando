@@ -28,6 +28,10 @@ header {
     z-index: 1; 
 }
 
+footer{
+    padding-top: 30px;
+}
+
 .section-centered {
     max-width: 1300px;
     margin-left: auto;
