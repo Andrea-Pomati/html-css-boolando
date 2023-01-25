@@ -8,6 +8,10 @@
 
 /* Regole generali pagina: azzero margini */
 
+main{
+    padding-bottom: 40px;
+}
+
 .section-centered {
     max-width: 1300px;
     margin-left: auto;
@@ -87,19 +91,22 @@ header #header-inner{
     border: 1px solid black;
     height: 60px;
     background-color: orange;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
+
 #contenitore-srl {
-    height: 50px;
+    height: 60px;
     width: 80px;
     background-color: red;
 
 }
 
 #contenitore-social {
-    height: 50px;
+    height: 60px;
     width: 80px;
     background-color: red;
 
