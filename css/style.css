@@ -28,7 +28,9 @@ header #head-inner{
 
 }
 
-header div #donna-uomo-bambino{
+/* contenitore principale header */
+
+header div #contenitore-donna-uomo-bambino{
     height:100%;
     width: 150px;
     background-color: red;
