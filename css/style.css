@@ -24,7 +24,8 @@ header {
     width: 100%;
     top: 0;
     height: 60px;
-    background-color: #FF6900;    
+    background-color: #FF6900;   
+    z-index: 1; 
 }
 
 .section-centered {
