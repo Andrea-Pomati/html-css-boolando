@@ -17,6 +17,14 @@ body{
     padding-top: 60px;
 }
 
+header {
+    position: fixed;
+    left: auto;
+    right: auto;
+    width: 100%;
+    top: 0;
+}
+
 .section-centered {
     max-width: 1300px;
     margin-left: auto;
@@ -38,9 +46,7 @@ header #header-inner{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 40px;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    
     
 
 
@@ -49,7 +55,7 @@ header #header-inner{
 /* contenitore principale header */
 
 #contenitore-donna-uomo-bambino{
-    height:60px;
+    height:100%;
     width: 150px;
     background-color: red;
     display: flex;
