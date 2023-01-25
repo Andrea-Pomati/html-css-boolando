@@ -152,6 +152,24 @@ header #header-inner{
 
 }
 
+.sostenibilità{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    background-color: green;
+    color: white;
+
+}
+
+#sostenibilità-due{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    background-color: green;
+    color: white;
+
+}
+
 
 /* /sezione main */
 
