@@ -8,7 +8,7 @@
 
 /* Regole generali pagina: azzero margini */
 
-header .section-centered {
+.section-centered {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +18,7 @@ header .section-centered {
 
 /* Margini del contenuto */
 
-header #head-inner{
+header #header-inner{
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +28,7 @@ header #head-inner{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 40px;
 
 
 }
@@ -55,3 +56,23 @@ header #head-inner{
 
 }
 
+
+/* /sezione header */
+
+.cards {
+    height: 500px;
+    width: 350px;
+    border: 1px solid black;
+    background-color: green;
+
+}
+
+#contenitore-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+
+
+}
