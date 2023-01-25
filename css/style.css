@@ -25,12 +25,16 @@ header #head-inner{
     border: 1px solid black;
     height: 60px;
     background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 
 }
 
 /* contenitore principale header */
 
-header div #contenitore-donna-uomo-bambino{
+#contenitore-donna-uomo-bambino{
     height:100%;
     width: 150px;
     background-color: red;
